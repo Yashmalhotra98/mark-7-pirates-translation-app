@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirate Translator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1> Pirate Translator</h1>
+    <header>
+        <h1> Pirate Translator</h1>
+    </header>
+
     <textarea id="txt-input" placeholder="Put your sentence in English here and we will translate it to the Pirate Language."></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;">Output will come here 👇</div>
+    <div class="btn-container">
+        <button id="btn-translate">Translate</button></div>
+    <div style="font-size: larger; text-align: center;
+    font-weight: bold;
+    color: red;">Output will come here 👇</div>
     <div id="output"></div>
     <script src="/app.js" type="text/javascript">
     </script>
